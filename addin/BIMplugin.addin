@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Assembly>C:\BIMplugin\BIMplugin.dll</Assembly>
+    <AddInId>06879639-508B-49E9-9C4A-A1EFF582E88D</AddInId>
+    <FullClassName>BIMplugin.Main</FullClassName>
+    <Name>BIMplugin</Name>
+    <VendorId>Brian Johnson</VendorId>
+    <Publisher>Brian Johnson</Publisher>
+    <VendorDescription>www.BIM4tips.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
