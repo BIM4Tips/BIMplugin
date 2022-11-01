@@ -45,7 +45,7 @@
             Btn1.LargeImage = new BitmapImage(new Uri(@"C:\BIMplugin\res\LOGO_Temp_Image_32x32.png"));
 
             // Create push button#2 data and populate it with information.
-            var BtnData2 = new PushButtonData("BtnData2", "[ATU]System", Assembly.GetExecutingAssembly().Location, "BIMplugin.BIMpluginCommand1")
+            var BtnData2 = new PushButtonData("BtnData2", "B4T_Interface", Assembly.GetExecutingAssembly().Location, "BIMplugin.BIMpluginCommand1")
             {
                 ///ToolTipImage = new BitmapImage(new Uri(@"image location on disk..."));
                 ///ToolTip = "This is some sample tooltip text, replace it later...";

@@ -32,7 +32,7 @@
             UIApplication uiapp = commandData.Application;
             Document doc = uiapp.ActiveUIDocument.Document;
 
-            string Journal_Dynamo_Path = @"C:\BIMplugin\[ATU]SystemV4.dyn";
+            string Journal_Dynamo_Path = @"C:\BIMplugin\B4T_Interface_Beta.dyn";
             DynamoRevit dynamoRevit = new DynamoRevit();
 
             DynamoRevitCommandData dynamoRevitCommandData = new DynamoRevitCommandData();

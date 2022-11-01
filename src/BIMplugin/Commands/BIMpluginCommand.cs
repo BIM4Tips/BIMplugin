@@ -32,7 +32,7 @@
             UIApplication uiapp = commandData.Application;
             Document doc = uiapp.ActiveUIDocument.Document;
 
-            string Journal_Dynamo_Path = @"C:\BIMplugin\DynamoSpaceNaming.dyn";
+            string Journal_Dynamo_Path = @"C:\BIMplugin\SpaceNamingTool.dyn";
             DynamoRevit dynamoRevit = new DynamoRevit();
 
             DynamoRevitCommandData dynamoRevitCommandData = new DynamoRevitCommandData();
