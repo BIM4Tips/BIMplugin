@@ -27,7 +27,7 @@
             string tabName = "Bim4Tips";
 
             // Plugins name hoted on ribbon tab.
-            string panelAnnotationName = "Bim4Tips Programs";
+            string panelAnnotationName = "Bim4Tips Programs Version 1.0.0.1";
 
             // Create tab on Revit UI.
             application.CreateRibbonTab(tabName);
