@@ -1,4 +1,4 @@
-﻿namespace BIMplugin
+namespace BIMplugin
 {
     using System;
     using System.Reflection;
@@ -27,7 +27,7 @@
             string tabName = "Bim4Tips";
 
             // Plugins name hoted on ribbon tab.
-            string panelAnnotationName = "Bim4Tips Programs Version 1.0.0.1";
+            string panelAnnotationName = "Bim4Tips v1.1.0";
 
             // Create tab on Revit UI.
             application.CreateRibbonTab(tabName);
@@ -42,16 +42,16 @@
                 ///ToolTip = "This is some sample tooltip text, replace it later...";
             };
             var Btn1 = panelAnnotation.AddItem(BtnData1) as PushButton;
-            Btn1.LargeImage = new BitmapImage(new Uri(@"C:\BIMplugin\res\LOGO_Temp_Image_32x32.png"));
+            Btn1.LargeImage = new BitmapImage(new Uri(@"C:\BIMplugin\favicon_package_v0.16\favicon-32x32.png"));
 
             // Create push button#2 data and populate it with information.
-            var BtnData2 = new PushButtonData("BtnData2", "B4T_Interface", Assembly.GetExecutingAssembly().Location, "BIMplugin.BIMpluginCommand1")
+            var BtnData2 = new PushButtonData("BtnData2", "B4T \n Interface", Assembly.GetExecutingAssembly().Location, "BIMplugin.BIMpluginCommand1")
             {
                 ///ToolTipImage = new BitmapImage(new Uri(@"image location on disk..."));
                 ///ToolTip = "This is some sample tooltip text, replace it later...";
             };
             var Btn2 = panelAnnotation.AddItem(BtnData2) as PushButton;
-            Btn2.LargeImage = new BitmapImage(new Uri(@"C:\BIMplugin\res\LOGO_Image_32x32.png"));
+            Btn2.LargeImage = new BitmapImage(new Uri(@"C:\BIMplugin\favicon_package_v0.16\favicon-32x32.png"));
 
             return Result.Succeeded;
         }
