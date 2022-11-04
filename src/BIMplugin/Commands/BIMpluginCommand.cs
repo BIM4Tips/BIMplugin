@@ -1,4 +1,4 @@
-﻿namespace BIMplugin
+namespace BIMplugin
 { 
     using Autodesk.Revit.UI;
     using Autodesk.Revit.DB;
